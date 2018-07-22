@@ -5,9 +5,9 @@ let _Users = Users;
 
 export default {
   /**
-   * mock bootstrap
+   * mock start
    */
-  bootstrap() {
+  start() {
     let mock = new MockAdapter(axios);
 
     // mock success request

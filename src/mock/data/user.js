@@ -1,11 +1,12 @@
-import Mock from 'mockjs';
+import Mock from 'mockjs'
+// import avator from '@/assets/avatar.jpg'
 const LoginUsers = [
   {
     id: 1,
     username: 'admin',
     password: '123456',
-    avatar: '@/assets/avator.jpg',
-    name: '张某某'
+    avatar: '../static/avator.jpg',
+    name: 'gktter'
   }
 ];
 

@@ -10,7 +10,7 @@ import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 
 import Mock from './mock'
-Mock.bootstrap();
+Mock.start();
 
 Vue.config.productionTip = false
 
